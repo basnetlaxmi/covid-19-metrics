@@ -5,7 +5,8 @@ const World = () => (
   <div>
     <div className="d-flex align-center world-container">
       <img src={world} alt="World map" className="m-auto" />
-      <p className="">Hello World</p>
+      <h6 className="">The World</h6>
+      <p> 7231690 deaths</p>
     </div>
   </div>
 );

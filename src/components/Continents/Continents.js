@@ -1,5 +1,6 @@
 import './Continent.css';
 import { useSelector } from 'react-redux';
+// import Continent from './Continent';
 
 const Continents = () => {
   const continents = useSelector((state) => state.continentReducer.continents);
@@ -12,7 +13,13 @@ const Continents = () => {
         <h6 className="m-auto">Stats By Continent</h6>
       </div>
       <div className="row">
-        <div className="col" />
+        {continents.map((continent) => (
+          <div className="col-6" key={continent.name}>
+            {continent.name}
+          </div>
+        ))}
+        ;
+
       </div>
     </div>
   );
