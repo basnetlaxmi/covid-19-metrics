@@ -7,6 +7,7 @@ const loadContinents = async () => {
         name: continent.continent,
         deaths: continent.deaths,
       }));
+      console.log(selectedContinent);
       return selectedContinent;
     });
   return data;
