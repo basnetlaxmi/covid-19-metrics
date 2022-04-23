@@ -13,8 +13,6 @@
 - Redux
 - Linters
 
-## Live Demo
-
 ### Prerequisites
   - #### Knowledge of these technologies
     - ReactJs
