@@ -1,6 +1,12 @@
 .continent-header {
     background-color: #35548b;
-    height: 7vh;
+    height: 7vh;  
+    width: 100%;
+    font-family: Lato, sans-serif;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .map-img {

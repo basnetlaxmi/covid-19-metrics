@@ -1,21 +1,20 @@
-import { useDispatch } from 'react-redux';
-import { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import World from './components/World/World';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import Continents from './components/Continents/Continents';
-import { fetchContitnents } from './Redux/Continents/Continents';
+import Details from './components/Details/Details';
 
 function App() {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(fetchContitnents());
-  }, []);
+  const [continent, setContinent] = useState('');
   return (
     <div>
-      <Header />
-      <World />
-      <Continents />
+      <Header setContinent={setContinent} />
+      <Routes>
+        <Route path="/" element={<Continents singleContinent={continent} />} />
+        <Route path="/details/:name" element={<Details />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,54 @@
+.country-list {
+    list-style: none;
+    padding: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "gill-sans", sans-serif;
+}
+.country-header {
+    background-color: #35548b;
+    height: 7vh;  
+    width: 100%;
+    font-family: Lato, sans-serif;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.country-list li {
+    width: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.country-list div:nth-child(odd) {
+    background-color: #3e61a3;
+}
+.country-list div:nth-child(even) {
+    background-color: #4268af;
+}
+
+.country-list div p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.continent-img {
+  width: 130px;
+  height: auto;
+}
+
+.single-continent {
+    background-color: #5586e3;
+}
+
+.single-continent h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 170px;
+}
+
+.single-component p {
+    font-family: 'Lato', sans-serif;
+}
