@@ -13,6 +13,9 @@
 - Redux
 - Linters
 
+## Live Demo
+[Live Demo](https://covid-19-metrics.netlify.app)
+
 ### Prerequisites
   - #### Knowledge of these technologies
     - ReactJs
