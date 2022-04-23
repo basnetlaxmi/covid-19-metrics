@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+@font-face {
+  font-family: gill-sans;
+  font-weight: 900;
+  src: url(./fonts/GillSans/Gill-Sans-Bold.otf);
+}
+
+@font-face {
+  font-family: gill-sans;
+  font-weight: 400;
+  src: url(./fonts/GillSans/Gill-Sans-Medium.otf);
+}
+
+@font-face {
+  font-family: gill-sans;
+  font-weight: 300;
+  src: url(./fonts/GillSans/Gill-Sans-Light.otf);
+}
+
+/* font-family: gill-sans, sans-serif; body, title */
+
+/* font-family: 'Lato', sans-serif; control fonts */
+
 body {
-	margin: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #5586e3 !important;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: gill-sans, sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
 }

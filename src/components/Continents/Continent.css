@@ -1,0 +1,31 @@
+.continent-header {
+  background-color: #35548b;
+  height: 7vh;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.map-img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.map-data {
+  color: #fff;
+}
+
+.map-data:nth-child(odd) {
+  background-color: #4167ae;
+}
+
+.map-data:nth-child(even) {
+  background-color: #3f62a4;
+}
+
+.data-details {
+  margin-left: 150px;
+}
